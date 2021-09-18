@@ -67,24 +67,12 @@ nav>ul>li a {
 }
 
 .mainContent{
-    width:1000px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.leftmenu {
-    float: left;
-    width: 30%;
-    margin-bottom: 20px;
+    display: flex;
 }
 
 /*Main Content*/
-
-.main {
-    float: right;
-    width: 70%;
-    margin-bottom: 20px;
-}
 
 .pageTitle{
     font-size:35px;
@@ -93,6 +81,5 @@ nav>ul>li a {
 
 /*Footer*/
 footer {
-    clear: both;
-    width: 100%;
+   display: flex;
 }
