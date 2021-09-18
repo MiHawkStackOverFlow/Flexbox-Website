@@ -79,6 +79,13 @@ nav>ul>li a {
     color:#a593c2;
 }
 
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin: 5px 10px;
+}
+
 /*Footer*/
 footer {
    display: flex;
