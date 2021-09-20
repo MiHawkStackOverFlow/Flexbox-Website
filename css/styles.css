@@ -79,7 +79,7 @@ nav>ul>li a {
 .pieGallery {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    flex-basis: 60%;
     flex-wrap: wrap;
     align-content: flex-start;
 }
@@ -136,7 +136,7 @@ nav>ul>li a {
 .main {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    flex-basis: 60%;
     /* background-color: blue; */
 }
 
@@ -157,7 +157,7 @@ nav>ul>li a {
 }
 
 .pieRow > small {
-  flex-shrink: 3;
+    flex-shrink: 3;
 }
 
 .leftMenu {
@@ -180,5 +180,8 @@ footer > p, footer > address {
 @media screen and (max-width: 600px) {
     .leftMenu {
         order: 1;
+    }
+    .main, .pieGallery {
+       flex-basis: 90% !important;
     }
 }
