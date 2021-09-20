@@ -73,6 +73,7 @@ nav>ul>li a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .pieGallery {
@@ -118,7 +119,7 @@ nav>ul>li a {
 }
 
 .box {
-    width: 250px;
+    width: 150px;
     height: 150px;
     background-color: red;
     margin: 5px 10px;
@@ -153,6 +154,10 @@ nav>ul>li a {
 .pieRow > div {
     flex-grow: 2;
     padding-left: .5rem;
+}
+
+.pieRow > small {
+  flex-shrink: 3;
 }
 
 .leftMenu {
