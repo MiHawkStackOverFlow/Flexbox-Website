@@ -73,9 +73,40 @@ nav>ul>li a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: lightslategrey;
-    height: 600px;
-    align-content: space-between;
+}
+
+.pieGallery {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.pieCard {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    font-weight: 500;
+    /* align-items: center; */
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+}
+
+.pieCard > h5, .pieCard > p {
+    margin: .2rem 0.2rem;
+}
+
+.cardRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardRow > h5, .cardRow > p {
+    margin: .2rem 0.2rem;
 }
 
 /*Main Content*/
