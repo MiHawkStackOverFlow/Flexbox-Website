@@ -100,6 +100,10 @@ nav>ul>li a {
     margin: .2rem 0.2rem;
 }
 
+.pieCard > img {
+    align-self: center;
+}
+
 .cardRow {
     display: flex;
     flex-direction: row;
@@ -109,6 +113,18 @@ nav>ul>li a {
 
 .cardRow > h5, .cardRow > p {
     margin: .2rem 0.2rem;
+}
+
+#promos {
+    align-self: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+#promos > h3 {
+    margin: 5px 0;
 }
 
 /*Main Content*/
